@@ -1,0 +1,138 @@
+Device  : cuda
+Model   : resnet18
+Dataset : cifar10
+Files already downloaded and verified
+Files already downloaded and verified
+Params  : 11,173,962
+Epochs  : 20
+
+Epoch 1/20
+----------------------------------------
+  train  loss: 1.8272  acc: 0.3477
+  val    loss: 1.4666  acc: 0.4516
+  --> New best (0.4516) saved to models/resnet18_cifar10_best.pth
+  Time: 18.0s
+
+Epoch 2/20
+----------------------------------------
+  train  loss: 1.3122  acc: 0.5268
+  val    loss: 1.1832  acc: 0.5747
+  --> New best (0.5747) saved to models/resnet18_cifar10_best.pth
+  Time: 16.9s
+
+Epoch 3/20
+----------------------------------------
+  train  loss: 1.0131  acc: 0.6397
+  val    loss: 0.9807  acc: 0.6515
+  --> New best (0.6515) saved to models/resnet18_cifar10_best.pth
+  Time: 18.5s
+
+Epoch 4/20
+----------------------------------------
+  train  loss: 0.8419  acc: 0.7032
+  val    loss: 0.8601  acc: 0.7004
+  --> New best (0.7004) saved to models/resnet18_cifar10_best.pth
+  Time: 18.4s
+
+Epoch 5/20
+----------------------------------------
+  train  loss: 0.7055  acc: 0.7535
+  val    loss: 0.8157  acc: 0.7276
+  --> New best (0.7276) saved to models/resnet18_cifar10_best.pth
+  Time: 17.7s
+
+Epoch 6/20
+----------------------------------------
+  train  loss: 0.6239  acc: 0.7852
+  val    loss: 0.8304  acc: 0.7193
+  Time: 16.8s
+
+Epoch 7/20
+----------------------------------------
+  train  loss: 0.5696  acc: 0.8024
+  val    loss: 0.6900  acc: 0.7654
+  --> New best (0.7654) saved to models/resnet18_cifar10_best.pth
+  Time: 17.0s
+
+Epoch 8/20
+----------------------------------------
+  train  loss: 0.5198  acc: 0.8212
+  val    loss: 0.8539  acc: 0.7225
+  Time: 18.1s
+
+Epoch 9/20
+----------------------------------------
+  train  loss: 0.4898  acc: 0.8296
+  val    loss: 0.7229  acc: 0.7580
+  Time: 16.9s
+
+Epoch 10/20
+----------------------------------------
+  train  loss: 0.4537  acc: 0.8427
+  val    loss: 0.7255  acc: 0.7634
+  Time: 16.7s
+
+Epoch 11/20
+----------------------------------------
+  train  loss: 0.4291  acc: 0.8507
+  val    loss: 0.8203  acc: 0.7420
+  Time: 16.7s
+
+Epoch 12/20
+----------------------------------------
+  train  loss: 0.4175  acc: 0.8547
+  val    loss: 0.7006  acc: 0.7676
+  --> New best (0.7676) saved to models/resnet18_cifar10_best.pth
+  Time: 17.1s
+
+Epoch 13/20
+----------------------------------------
+  train  loss: 0.4012  acc: 0.8612
+  val    loss: 0.8521  acc: 0.7365
+  Time: 17.7s
+
+Epoch 14/20
+----------------------------------------
+  train  loss: 0.3870  acc: 0.8664
+  val    loss: 0.6839  acc: 0.7762
+  --> New best (0.7762) saved to models/resnet18_cifar10_best.pth
+  Time: 17.5s
+
+Epoch 15/20
+----------------------------------------
+  train  loss: 0.3774  acc: 0.8709
+  val    loss: 0.8018  acc: 0.7434
+  Time: 16.9s
+
+Epoch 16/20
+----------------------------------------
+  train  loss: 0.3635  acc: 0.8739
+  val    loss: 0.7218  acc: 0.7748
+  Time: 17.1s
+
+Epoch 17/20
+----------------------------------------
+  train  loss: 0.3622  acc: 0.8739
+  val    loss: 0.8257  acc: 0.7413
+  Time: 16.8s
+
+Epoch 18/20
+----------------------------------------
+  train  loss: 0.3517  acc: 0.8782
+  val    loss: 0.9418  acc: 0.7100
+  Time: 16.7s
+
+Epoch 19/20
+----------------------------------------
+  train  loss: 0.3437  acc: 0.8805
+  val    loss: 0.7127  acc: 0.7660
+  Time: 18.0s
+
+Epoch 20/20
+----------------------------------------
+  train  loss: 0.3460  acc: 0.8796
+  val    loss: 0.7873  acc: 0.7602
+  Time: 16.9s
+
+Best val accuracy: 0.7762
+Curves saved to plots/resnet18_cifar10_curves.png

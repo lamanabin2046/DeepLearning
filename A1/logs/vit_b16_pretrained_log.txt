@@ -1,0 +1,110 @@
+Device  : cuda
+Model   : vit_b16_pretrained
+Dataset : cifar10
+Files already downloaded and verified
+Files already downloaded and verified
+Params  : 85,806,346
+Epochs  : 15
+Stage 1 : 5 epochs
+Stage 2 : 10 epochs
+
+--- Stage 1: Freeze backbone, train head only (5 epochs) ---
+
+Epoch 1/5
+----------------------------------------
+  train  loss: 0.2107  acc: 0.9344
+  val    loss: 0.1675  acc: 0.9454
+  --> New best (0.9454) saved to models/vit_b16_pretrained_cifar10_stage1_best.pth
+  Time: 394.7s
+
+Epoch 2/5
+----------------------------------------
+  train  loss: 0.1412  acc: 0.9538
+  val    loss: 0.1614  acc: 0.9462
+  --> New best (0.9462) saved to models/vit_b16_pretrained_cifar10_stage1_best.pth
+  Time: 407.6s
+
+Epoch 3/5
+----------------------------------------
+  train  loss: 0.1223  acc: 0.9601
+  val    loss: 0.1589  acc: 0.9492
+  --> New best (0.9492) saved to models/vit_b16_pretrained_cifar10_stage1_best.pth
+  Time: 411.8s
+
+Epoch 4/5
+----------------------------------------
+  train  loss: 0.1125  acc: 0.9627
+  val    loss: 0.1575  acc: 0.9478
+  Time: 402.9s
+
+Epoch 5/5
+----------------------------------------
+  train  loss: 0.1045  acc: 0.9642
+  val    loss: 0.1628  acc: 0.9468
+  Time: 403.9s
+
+Best val accuracy: 0.9492
+
+--- Stage 2: Unfreeze all layers and fine-tune (10 epochs) ---
+
+Epoch 1/10
+----------------------------------------
+  train  loss: 0.2981  acc: 0.9009
+  val    loss: 0.2585  acc: 0.9158
+  --> New best (0.9158) saved to models/vit_b16_pretrained_cifar10_stage2_best.pth
+  Time: 601.9s
+
+Epoch 2/10
+----------------------------------------
+  train  loss: 0.1886  acc: 0.9373
+  val    loss: 0.2292  acc: 0.9247
+  --> New best (0.9247) saved to models/vit_b16_pretrained_cifar10_stage2_best.pth
+  Time: 601.7s
+
+Epoch 3/10
+----------------------------------------
+  train  loss: 0.1521  acc: 0.9491
+  val    loss: 0.2391  acc: 0.9217
+  Time: 604.5s
+
+Epoch 4/10
+----------------------------------------
+  train  loss: 0.1213  acc: 0.9592
+  val    loss: 0.2064  acc: 0.9307
+  --> New best (0.9307) saved to models/vit_b16_pretrained_cifar10_stage2_best.pth
+  Time: 602.2s
+
+Epoch 5/10
+----------------------------------------
+  train  loss: 0.0990  acc: 0.9661
+  val    loss: 0.2338  acc: 0.9296
+  Time: 603.4s
+
+Epoch 6/10
+----------------------------------------
+  train  loss: 0.0869  acc: 0.9702
+  val    loss: 0.2396  acc: 0.9273
+  Time: 601.0s
+
+Epoch 7/10
+----------------------------------------
+  train  loss: 0.0759  acc: 0.9736
+  val    loss: 0.2356  acc: 0.9308
+  --> New best (0.9308) saved to models/vit_b16_pretrained_cifar10_stage2_best.pth
+  Time: 604.8s
+
+Epoch 8/10
+----------------------------------------
+  train  loss: 0.0689  acc: 0.9770
+  val    loss: 0.2670  acc: 0.9222
+  Time: 594.0s
+
+Epoch 9/10
+----------------------------------------
+  train  loss: 0.0617  acc: 0.9791
+  val    loss: 0.1918  acc: 0.9422
+  --> New best (0.9422) saved to models/vit_b16_pretrained_cifar10_stage2_best.pth
+  Time: 601.9s
+
+Epoch 10/10
+----------------------------------------

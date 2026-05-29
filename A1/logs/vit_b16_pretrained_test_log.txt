@@ -1,0 +1,8 @@
+Device  : cuda
+Model   : vit_b16_pretrained
+Dataset : cifar10
+Files already downloaded and verified
+Files already downloaded and verified
+Loaded weights from models/vit_b16_pretrained_cifar10_stage2_best.pth
+
+Test accuracy: 0.9411  (9411/10000)

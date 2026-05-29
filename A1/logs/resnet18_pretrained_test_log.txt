@@ -1,0 +1,8 @@
+Device  : cuda
+Model   : resnet18_pretrained
+Dataset : cifar10
+Files already downloaded and verified
+Files already downloaded and verified
+Loaded weights from models/resnet18_pretrained_cifar10_stage2_best.pth
+
+Test accuracy: 0.9314  (9314/10000)

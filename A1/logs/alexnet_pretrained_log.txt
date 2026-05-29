@@ -1,0 +1,118 @@
+Device  : cuda
+Model   : alexnet_pretrained
+Dataset : cifar10
+Files already downloaded and verified
+Files already downloaded and verified
+Params  : 57,044,810
+Epochs  : 15
+Stage 1 : 5 epochs
+Stage 2 : 10 epochs
+
+--- Stage 1: Freeze backbone, train head only (5 epochs) ---
+
+Epoch 1/5
+----------------------------------------
+  train  loss: 0.7743  acc: 0.7282
+  val    loss: 0.5890  acc: 0.7944
+  --> New best (0.7944) saved to models/alexnet_pretrained_cifar10_stage1_best.pth
+  Time: 50.4s
+
+Epoch 2/5
+----------------------------------------
+  train  loss: 0.6595  acc: 0.7719
+  val    loss: 0.5762  acc: 0.7986
+  --> New best (0.7986) saved to models/alexnet_pretrained_cifar10_stage1_best.pth
+  Time: 51.0s
+
+Epoch 3/5
+----------------------------------------
+  train  loss: 0.6506  acc: 0.7753
+  val    loss: 0.5953  acc: 0.7965
+  Time: 50.5s
+
+Epoch 4/5
+----------------------------------------
+  train  loss: 0.6262  acc: 0.7843
+  val    loss: 0.5492  acc: 0.8094
+  --> New best (0.8094) saved to models/alexnet_pretrained_cifar10_stage1_best.pth
+  Time: 52.9s
+
+Epoch 5/5
+----------------------------------------
+  train  loss: 0.6241  acc: 0.7814
+  val    loss: 0.5775  acc: 0.7991
+  Time: 50.7s
+
+Best val accuracy: 0.8094
+
+--- Stage 2: Unfreeze all layers and fine-tune (10 epochs) ---
+
+Epoch 1/10
+----------------------------------------
+  train  loss: 0.5144  acc: 0.8233
+  val    loss: 0.3924  acc: 0.8639
+  --> New best (0.8639) saved to models/alexnet_pretrained_cifar10_stage2_best.pth
+  Time: 50.5s
+
+Epoch 2/10
+----------------------------------------
+  train  loss: 0.3048  acc: 0.8938
+  val    loss: 0.3462  acc: 0.8821
+  --> New best (0.8821) saved to models/alexnet_pretrained_cifar10_stage2_best.pth
+  Time: 51.7s
+
+Epoch 3/10
+----------------------------------------
+  train  loss: 0.2045  acc: 0.9281
+  val    loss: 0.3294  acc: 0.8888
+  --> New best (0.8888) saved to models/alexnet_pretrained_cifar10_stage2_best.pth
+  Time: 51.3s
+
+Epoch 4/10
+----------------------------------------
+  train  loss: 0.1455  acc: 0.9489
+  val    loss: 0.3335  acc: 0.8915
+  --> New best (0.8915) saved to models/alexnet_pretrained_cifar10_stage2_best.pth
+  Time: 51.1s
+
+Epoch 5/10
+----------------------------------------
+  train  loss: 0.1120  acc: 0.9606
+  val    loss: 0.3855  acc: 0.8813
+  Time: 48.9s
+
+Epoch 6/10
+----------------------------------------
+  train  loss: 0.0887  acc: 0.9684
+  val    loss: 0.3564  acc: 0.8924
+  --> New best (0.8924) saved to models/alexnet_pretrained_cifar10_stage2_best.pth
+  Time: 53.4s
+
+Epoch 7/10
+----------------------------------------
+  train  loss: 0.0829  acc: 0.9709
+  val    loss: 0.3761  acc: 0.8908
+  Time: 49.5s
+
+Epoch 8/10
+----------------------------------------
+  train  loss: 0.0731  acc: 0.9748
+  val    loss: 0.3793  acc: 0.8972
+  --> New best (0.8972) saved to models/alexnet_pretrained_cifar10_stage2_best.pth
+  Time: 51.7s
+
+Epoch 9/10
+----------------------------------------
+  train  loss: 0.0680  acc: 0.9768
+  val    loss: 0.3865  acc: 0.8976
+  --> New best (0.8976) saved to models/alexnet_pretrained_cifar10_stage2_best.pth
+  Time: 54.3s
+
+Epoch 10/10
+----------------------------------------
+  train  loss: 0.0613  acc: 0.9784
+  val    loss: 0.3824  acc: 0.8965
+  Time: 48.3s
+
+Best val accuracy: 0.8976
+Curves saved to plots/alexnet_pretrained_cifar10_curves.png

@@ -1,0 +1,144 @@
+Device  : cuda
+Model   : vit_small
+Dataset : cifar10
+Files already downloaded and verified
+Files already downloaded and verified
+Params  : 1,205,898
+Epochs  : 20
+
+Epoch 1/20
+----------------------------------------
+  train  loss: 1.7610  acc: 0.3422
+  val    loss: 1.5400  acc: 0.4309
+  --> New best (0.4309) saved to models/vit_small_cifar10_best.pth
+  Time: 31.7s
+
+Epoch 2/20
+----------------------------------------
+  train  loss: 1.4906  acc: 0.4514
+  val    loss: 1.4098  acc: 0.4925
+  --> New best (0.4925) saved to models/vit_small_cifar10_best.pth
+  Time: 27.8s
+
+Epoch 3/20
+----------------------------------------
+  train  loss: 1.3434  acc: 0.5091
+  val    loss: 1.2854  acc: 0.5248
+  --> New best (0.5248) saved to models/vit_small_cifar10_best.pth
+  Time: 28.8s
+
+Epoch 4/20
+----------------------------------------
+  train  loss: 1.2644  acc: 0.5422
+  val    loss: 1.2347  acc: 0.5472
+  --> New best (0.5472) saved to models/vit_small_cifar10_best.pth
+  Time: 28.8s
+
+Epoch 5/20
+----------------------------------------
+  train  loss: 1.2085  acc: 0.5585
+  val    loss: 1.2442  acc: 0.5520
+  --> New best (0.5520) saved to models/vit_small_cifar10_best.pth
+  Time: 31.7s
+
+Epoch 6/20
+----------------------------------------
+  train  loss: 1.1513  acc: 0.5835
+  val    loss: 1.2380  acc: 0.5676
+  --> New best (0.5676) saved to models/vit_small_cifar10_best.pth
+  Time: 28.9s
+
+Epoch 7/20
+----------------------------------------
+  train  loss: 1.1133  acc: 0.5936
+  val    loss: 1.1475  acc: 0.5953
+  --> New best (0.5953) saved to models/vit_small_cifar10_best.pth
+  Time: 28.5s
+
+Epoch 8/20
+----------------------------------------
+  train  loss: 1.0729  acc: 0.6113
+  val    loss: 1.1013  acc: 0.6066
+  --> New best (0.6066) saved to models/vit_small_cifar10_best.pth
+  Time: 31.0s
+
+Epoch 9/20
+----------------------------------------
+  train  loss: 1.0324  acc: 0.6274
+  val    loss: 1.1267  acc: 0.5992
+  Time: 30.5s
+
+Epoch 10/20
+----------------------------------------
+  train  loss: 1.0024  acc: 0.6385
+  val    loss: 1.0414  acc: 0.6324
+  --> New best (0.6324) saved to models/vit_small_cifar10_best.pth
+  Time: 31.8s
+
+Epoch 11/20
+----------------------------------------
+  train  loss: 0.9738  acc: 0.6501
+  val    loss: 1.0360  acc: 0.6309
+  Time: 31.6s
+
+Epoch 12/20
+----------------------------------------
+  train  loss: 0.9389  acc: 0.6644
+  val    loss: 1.0246  acc: 0.6369
+  --> New best (0.6369) saved to models/vit_small_cifar10_best.pth
+  Time: 30.8s
+
+Epoch 13/20
+----------------------------------------
+  train  loss: 0.9171  acc: 0.6719
+  val    loss: 0.9850  acc: 0.6523
+  --> New best (0.6523) saved to models/vit_small_cifar10_best.pth
+  Time: 28.7s
+
+Epoch 14/20
+----------------------------------------
+  train  loss: 0.8889  acc: 0.6796
+  val    loss: 1.0004  acc: 0.6492
+  Time: 28.1s
+
+Epoch 15/20
+----------------------------------------
+  train  loss: 0.8632  acc: 0.6911
+  val    loss: 1.0177  acc: 0.6450
+  Time: 28.7s
+
+Epoch 16/20
+----------------------------------------
+  train  loss: 0.8432  acc: 0.6986
+  val    loss: 0.9693  acc: 0.6607
+  --> New best (0.6607) saved to models/vit_small_cifar10_best.pth
+  Time: 30.8s
+
+Epoch 17/20
+----------------------------------------
+  train  loss: 0.8221  acc: 0.7032
+  val    loss: 1.0175  acc: 0.6433
+  Time: 29.1s
+
+Epoch 18/20
+----------------------------------------
+  train  loss: 0.7960  acc: 0.7130
+  val    loss: 0.9805  acc: 0.6669
+  --> New best (0.6669) saved to models/vit_small_cifar10_best.pth
+  Time: 28.9s
+
+Epoch 19/20
+----------------------------------------
+  train  loss: 0.7754  acc: 0.7225
+  val    loss: 0.9689  acc: 0.6569
+  Time: 31.1s
+
+Epoch 20/20
+----------------------------------------
+  train  loss: 0.7536  acc: 0.7290
+  val    loss: 0.9615  acc: 0.6734
+  --> New best (0.6734) saved to models/vit_small_cifar10_best.pth
+  Time: 29.8s
+
+Best val accuracy: 0.6734
+Curves saved to plots/vit_small_cifar10_curves.png

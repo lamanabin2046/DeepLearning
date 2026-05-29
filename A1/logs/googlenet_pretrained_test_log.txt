@@ -1,0 +1,8 @@
+Device  : cuda
+Model   : googlenet_pretrained
+Dataset : cifar10
+Files already downloaded and verified
+Files already downloaded and verified
+Loaded weights from models/googlenet_pretrained_cifar10_stage2_best.pth
+
+Test accuracy: 0.9371  (9371/10000)
