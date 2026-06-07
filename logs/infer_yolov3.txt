@@ -1,0 +1,5 @@
+Running inference with yolov3...
+Detected: bicycle (1.00)
+Detected: truck (1.00)
+Detected: dog (1.00)
+Result saved to detection_result.jpg
