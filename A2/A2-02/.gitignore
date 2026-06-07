@@ -1,0 +1,12 @@
+# Large weight files
+*.pt
+
+# Dataset
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

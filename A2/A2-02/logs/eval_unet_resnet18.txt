@@ -1,0 +1,8 @@
+Using device: cuda
+Train: 3680 | Test: 3669
+Model: unet_resnet18
+Params: 14,343,491
+
+Evaluating unet_resnet18 from unet_resnet18.pt...
+mIoU: 0.7608
+Visualization saved to unet_resnet18_results.png
