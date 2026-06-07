@@ -1,0 +1,45 @@
+Evaluating yolov4...
+loading annotations into memory...
+Done (t=0.46s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.46s)
+creating index...
+index created!
+img_id: 139, dets type: <class 'torch.Tensor'>
+First det: tensor([  0.0000, 384.3684, 223.6818, 441.4643, 428.7921,   0.9644,   0.9956,
+          0.0000], device='cuda:0')
+Evaluated 0/500 images, detections so far: 16
+Evaluated 50/500 images, detections so far: 399
+Evaluated 100/500 images, detections so far: 735
+Evaluated 150/500 images, detections so far: 1137
+Evaluated 200/500 images, detections so far: 1512
+Evaluated 250/500 images, detections so far: 1847
+Evaluated 300/500 images, detections so far: 2268
+Evaluated 350/500 images, detections so far: 2669
+Evaluated 400/500 images, detections so far: 2976
+Evaluated 450/500 images, detections so far: 3273
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=1.31s).
+Accumulating evaluation results...
+DONE (t=0.59s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.504
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.711
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.572
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.307
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.564
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.601
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.375
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.548
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.552
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.333
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.604
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.649
+
+mAP: 0.5038
