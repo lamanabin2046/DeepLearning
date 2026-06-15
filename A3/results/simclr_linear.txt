@@ -1,0 +1,3 @@
+Weights: saved/simclr.pt
+Final Linear Eval Accuracy: 64.88%
+Best Linear Eval Accuracy: 64.97%

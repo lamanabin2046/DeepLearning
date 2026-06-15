@@ -1,0 +1,3 @@
+Weights: saved/dino_no_centering.pt
+Final Linear Eval Accuracy: 36.76%
+Best Linear Eval Accuracy: 36.86%

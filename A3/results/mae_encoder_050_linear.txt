@@ -1,0 +1,3 @@
+Weights: saved/mae_encoder_050.pt
+Final Linear Eval Accuracy: 52.33%
+Best Linear Eval Accuracy: 52.33%

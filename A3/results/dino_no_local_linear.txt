@@ -1,0 +1,3 @@
+Weights: saved/dino_no_local.pt
+Final Linear Eval Accuracy: 60.25%
+Best Linear Eval Accuracy: 60.25%

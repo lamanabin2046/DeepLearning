@@ -1,0 +1,11 @@
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Dataset
+A3/data/
+A3/datasets/
+
+# System
+.DS_Store
