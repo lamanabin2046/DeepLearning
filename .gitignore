@@ -3,9 +3,12 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Dataset
+# Datasets
 A3/data/
 A3/datasets/
+
+# Logs
+*.log
 
 # System
 .DS_Store

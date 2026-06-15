@@ -1,0 +1,8 @@
+Device  : cuda
+Model   : alexnet_lrn
+Dataset : cifar10
+Files already downloaded and verified
+Files already downloaded and verified
+Loaded weights from models/alexnet_lrn_cifar10_best.pth
+
+Test accuracy: 0.5116  (5116/10000)

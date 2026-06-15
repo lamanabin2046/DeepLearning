@@ -1,0 +1,79 @@
+Device  : cuda
+Model   : alexnet_lrn
+Dataset : cifar10
+Files already downloaded and verified
+Files already downloaded and verified
+Params  : 57,044,810
+Epochs  : 10
+
+Epoch 1/10
+----------------------------------------
+  train  loss: 2.3025  acc: 0.1018
+  val    loss: 2.3023  acc: 0.1201
+  --> New best (0.1201) saved to models/alexnet_lrn_cifar10_best.pth
+  Time: 48.9s
+
+Epoch 2/10
+----------------------------------------
+  train  loss: 2.3017  acc: 0.1201
+  val    loss: 2.3007  acc: 0.0929
+  Time: 49.8s
+
+Epoch 3/10
+----------------------------------------
+  train  loss: 2.2787  acc: 0.1148
+  val    loss: 2.2022  acc: 0.1759
+  --> New best (0.1759) saved to models/alexnet_lrn_cifar10_best.pth
+  Time: 53.7s
+
+Epoch 4/10
+----------------------------------------
+  train  loss: 2.1027  acc: 0.2394
+  val    loss: 2.0174  acc: 0.2679
+  --> New best (0.2679) saved to models/alexnet_lrn_cifar10_best.pth
+  Time: 57.7s
+
+Epoch 5/10
+----------------------------------------
+  train  loss: 1.9590  acc: 0.2747
+  val    loss: 1.8764  acc: 0.3016
+  --> New best (0.3016) saved to models/alexnet_lrn_cifar10_best.pth
+  Time: 57.7s
+
+Epoch 6/10
+----------------------------------------
+  train  loss: 1.7756  acc: 0.3367
+  val    loss: 1.6800  acc: 0.3935
+  --> New best (0.3935) saved to models/alexnet_lrn_cifar10_best.pth
+  Time: 51.0s
+
+Epoch 7/10
+----------------------------------------
+  train  loss: 1.6286  acc: 0.3986
+  val    loss: 1.5669  acc: 0.4260
+  --> New best (0.4260) saved to models/alexnet_lrn_cifar10_best.pth
+  Time: 51.9s
+
+Epoch 8/10
+----------------------------------------
+  train  loss: 1.5204  acc: 0.4432
+  val    loss: 1.4992  acc: 0.4619
+  --> New best (0.4619) saved to models/alexnet_lrn_cifar10_best.pth
+  Time: 52.5s
+
+Epoch 9/10
+----------------------------------------
+  train  loss: 1.4390  acc: 0.4735
+  val    loss: 1.3828  acc: 0.4997
+  --> New best (0.4997) saved to models/alexnet_lrn_cifar10_best.pth
+  Time: 52.8s
+
+Epoch 10/10
+----------------------------------------
+  train  loss: 1.3660  acc: 0.5021
+  val    loss: 1.3262  acc: 0.5159
+  --> New best (0.5159) saved to models/alexnet_lrn_cifar10_best.pth
+  Time: 57.3s
+
+Best val accuracy: 0.5159
+Curves saved to plots/alexnet_lrn_cifar10_curves.png

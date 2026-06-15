@@ -1,0 +1,115 @@
+Device  : cuda
+Model   : googlenet_pretrained
+Dataset : cifar10
+Files already downloaded and verified
+Files already downloaded and verified
+Params  : 9,960,638
+Epochs  : 15
+Stage 1 : 5 epochs
+Stage 2 : 10 epochs
+
+--- Stage 1: Freeze backbone, train head only (5 epochs) ---
+
+Epoch 1/5
+----------------------------------------
+  train  loss: 2.4702  acc: 0.6830
+  val    loss: 0.6953  acc: 0.7671
+  --> New best (0.7671) saved to models/googlenet_pretrained_cifar10_stage1_best.pth
+  Time: 50.8s
+
+Epoch 2/5
+----------------------------------------
+  train  loss: 2.2682  acc: 0.7315
+  val    loss: 0.6517  acc: 0.7763
+  --> New best (0.7763) saved to models/googlenet_pretrained_cifar10_stage1_best.pth
+  Time: 52.2s
+
+Epoch 3/5
+----------------------------------------
+  train  loss: 2.2414  acc: 0.7418
+  val    loss: 0.6402  acc: 0.7793
+  --> New best (0.7793) saved to models/googlenet_pretrained_cifar10_stage1_best.pth
+  Time: 52.2s
+
+Epoch 4/5
+----------------------------------------
+  train  loss: 2.2365  acc: 0.7425
+  val    loss: 0.6128  acc: 0.7932
+  --> New best (0.7932) saved to models/googlenet_pretrained_cifar10_stage1_best.pth
+  Time: 50.6s
+
+Epoch 5/5
+----------------------------------------
+  train  loss: 2.2276  acc: 0.7458
+  val    loss: 0.6145  acc: 0.7903
+  Time: 52.1s
+
+Best val accuracy: 0.7932
+
+--- Stage 2: Unfreeze all layers and fine-tune (10 epochs) ---
+
+Epoch 1/10
+----------------------------------------
+  train  loss: 0.9474  acc: 0.8782
+  val    loss: 0.1995  acc: 0.9322
+  --> New best (0.9322) saved to models/googlenet_pretrained_cifar10_stage2_best.pth
+  Time: 94.9s
+
+Epoch 2/10
+----------------------------------------
+  train  loss: 0.4692  acc: 0.9458
+  val    loss: 0.1771  acc: 0.9396
+  --> New best (0.9396) saved to models/googlenet_pretrained_cifar10_stage2_best.pth
+  Time: 91.3s
+
+Epoch 3/10
+----------------------------------------
+  train  loss: 0.3268  acc: 0.9690
+  val    loss: 0.1763  acc: 0.9427
+  --> New best (0.9427) saved to models/googlenet_pretrained_cifar10_stage2_best.pth
+  Time: 95.7s
+
+Epoch 4/10
+----------------------------------------
+  train  loss: 0.2480  acc: 0.9798
+  val    loss: 0.1885  acc: 0.9423
+  Time: 96.5s
+
+Epoch 5/10
+----------------------------------------
+  train  loss: 0.2033  acc: 0.9833
+  val    loss: 0.1964  acc: 0.9420
+  Time: 95.4s
+
+Epoch 6/10
+----------------------------------------
+  train  loss: 0.1678  acc: 0.9874
+  val    loss: 0.2377  acc: 0.9353
+  Time: 93.1s
+
+Epoch 7/10
+----------------------------------------
+  train  loss: 0.1430  acc: 0.9890
+  val    loss: 0.2160  acc: 0.9399
+  Time: 95.8s
+
+Epoch 8/10
+----------------------------------------
+  train  loss: 0.1197  acc: 0.9899
+  val    loss: 0.2198  acc: 0.9422
+  Time: 92.5s
+
+Epoch 9/10
+----------------------------------------
+  train  loss: 0.1076  acc: 0.9908
+  val    loss: 0.2213  acc: 0.9411
+  Time: 93.0s
+
+Epoch 10/10
+----------------------------------------
+  train  loss: 0.0882  acc: 0.9929
+  val    loss: 0.2443  acc: 0.9352
+  Time: 86.6s
+
+Best val accuracy: 0.9427
+Curves saved to plots/googlenet_pretrained_cifar10_curves.png

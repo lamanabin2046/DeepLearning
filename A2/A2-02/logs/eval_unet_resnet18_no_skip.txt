@@ -1,0 +1,8 @@
+Using device: cuda
+Train: 3680 | Test: 3669
+Model: unet_resnet18_no_skip
+Params: 13,532,483
+
+Evaluating unet_resnet18_no_skip from unet_resnet18_no_skip.pt...
+mIoU: 0.6942
+Visualization saved to unet_resnet18_no_skip_results.png

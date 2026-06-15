@@ -1,0 +1,172 @@
+Device  : cuda
+Model   : googlenet_aux
+Dataset : cifar10
+Files already downloaded and verified
+Files already downloaded and verified
+Params  : 10,635,134
+Epochs  : 25
+
+Epoch 1/25
+----------------------------------------
+  train  loss: 2.6708  acc: 0.3782
+  val    loss: 1.3797  acc: 0.4937
+  --> New best (0.4937) saved to models/googlenet_aux_cifar10_best.pth
+  Time: 197.5s
+
+Epoch 2/25
+----------------------------------------
+  train  loss: 1.9979  acc: 0.5624
+  val    loss: 1.0434  acc: 0.6241
+  --> New best (0.6241) saved to models/googlenet_aux_cifar10_best.pth
+  Time: 184.8s
+
+Epoch 3/25
+----------------------------------------
+  train  loss: 1.5922  acc: 0.6670
+  val    loss: 0.9120  acc: 0.6851
+  --> New best (0.6851) saved to models/googlenet_aux_cifar10_best.pth
+  Time: 195.9s
+
+Epoch 4/25
+----------------------------------------
+  train  loss: 1.3468  acc: 0.7275
+  val    loss: 0.7529  acc: 0.7385
+  --> New best (0.7385) saved to models/googlenet_aux_cifar10_best.pth
+  Time: 199.3s
+
+Epoch 5/25
+----------------------------------------
+  train  loss: 1.1745  acc: 0.7657
+  val    loss: 0.6847  acc: 0.7639
+  --> New best (0.7639) saved to models/googlenet_aux_cifar10_best.pth
+  Time: 205.5s
+
+Epoch 6/25
+----------------------------------------
+  train  loss: 1.0499  acc: 0.7988
+  val    loss: 0.5917  acc: 0.8029
+  --> New best (0.8029) saved to models/googlenet_aux_cifar10_best.pth
+  Time: 207.9s
+
+Epoch 7/25
+----------------------------------------
+  train  loss: 0.9295  acc: 0.8264
+  val    loss: 0.5346  acc: 0.8203
+  --> New best (0.8203) saved to models/googlenet_aux_cifar10_best.pth
+  Time: 193.4s
+
+Epoch 8/25
+----------------------------------------
+  train  loss: 0.8332  acc: 0.8494
+  val    loss: 0.5568  acc: 0.8146
+  Time: 193.6s
+
+Epoch 9/25
+----------------------------------------
+  train  loss: 0.7481  acc: 0.8665
+  val    loss: 0.5484  acc: 0.8199
+  Time: 204.3s
+
+Epoch 10/25
+----------------------------------------
+  train  loss: 0.6648  acc: 0.8851
+  val    loss: 0.5254  acc: 0.8313
+  --> New best (0.8313) saved to models/googlenet_aux_cifar10_best.pth
+  Time: 171.5s
+
+Epoch 11/25
+----------------------------------------
+  train  loss: 0.5918  acc: 0.9027
+  val    loss: 0.5031  acc: 0.8398
+  --> New best (0.8398) saved to models/googlenet_aux_cifar10_best.pth
+  Time: 194.9s
+
+Epoch 12/25
+----------------------------------------
+  train  loss: 0.5182  acc: 0.9187
+  val    loss: 0.5205  acc: 0.8444
+  --> New best (0.8444) saved to models/googlenet_aux_cifar10_best.pth
+  Time: 186.8s
+
+Epoch 13/25
+----------------------------------------
+  train  loss: 0.4748  acc: 0.9280
+  val    loss: 0.5097  acc: 0.8438
+  Time: 176.2s
+
+Epoch 14/25
+----------------------------------------
+  train  loss: 0.4255  acc: 0.9383
+  val    loss: 0.5403  acc: 0.8459
+  --> New best (0.8459) saved to models/googlenet_aux_cifar10_best.pth
+  Time: 192.3s
+
+Epoch 15/25
+----------------------------------------
+  train  loss: 0.3798  acc: 0.9459
+  val    loss: 0.5515  acc: 0.8527
+  --> New best (0.8527) saved to models/googlenet_aux_cifar10_best.pth
+  Time: 191.8s
+
+Epoch 16/25
+----------------------------------------
+  train  loss: 0.3473  acc: 0.9538
+  val    loss: 0.6214  acc: 0.8394
+  Time: 179.0s
+
+Epoch 17/25
+----------------------------------------
+  train  loss: 0.3145  acc: 0.9598
+  val    loss: 0.5879  acc: 0.8508
+  Time: 164.0s
+
+Epoch 18/25
+----------------------------------------
+  train  loss: 0.2920  acc: 0.9629
+  val    loss: 0.7002  acc: 0.8328
+  Time: 196.9s
+
+Epoch 19/25
+----------------------------------------
+  train  loss: 0.2725  acc: 0.9673
+  val    loss: 0.6419  acc: 0.8471
+  Time: 173.1s
+
+Epoch 20/25
+----------------------------------------
+  train  loss: 0.2538  acc: 0.9704
+  val    loss: 0.6315  acc: 0.8472
+  Time: 189.2s
+
+Epoch 21/25
+----------------------------------------
+  train  loss: 0.2413  acc: 0.9711
+  val    loss: 0.6077  acc: 0.8518
+  Time: 189.1s
+
+Epoch 22/25
+----------------------------------------
+  train  loss: 0.2212  acc: 0.9747
+  val    loss: 0.6455  acc: 0.8482
+  Time: 202.7s
+
+Epoch 23/25
+----------------------------------------
+  train  loss: 0.2047  acc: 0.9773
+  val    loss: 0.7090  acc: 0.8454
+  Time: 188.9s
+
+Epoch 24/25
+----------------------------------------
+  train  loss: 0.2059  acc: 0.9772
+  val    loss: 0.7203  acc: 0.8455
+  Time: 186.1s
+
+Epoch 25/25
+----------------------------------------
+  train  loss: 0.1891  acc: 0.9786
+  val    loss: 0.6704  acc: 0.8497
+  Time: 177.3s
+
+Best val accuracy: 0.8527
+Curves saved to plots/googlenet_aux_cifar10_curves.png
