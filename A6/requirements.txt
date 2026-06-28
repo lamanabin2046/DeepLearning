@@ -1,0 +1,28 @@
+# Core
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2
+numpy<2
+
+# IMPORTANT: do NOT install torchcodec alongside torch 2.1.2 -- torchcodec
+# requires a newer torch.library API (get_ctx, register_fake) that doesn't
+# exist in this torch version, and will hard-crash `datasets`' audio decoding
+# (ImportError -> Fatal Python error / core dump). If it's already installed:
+#   pip uninstall torchcodec -y
+
+# Exercise 2 (CTC) -- no extra deps beyond core
+
+# Exercise 3 (wav2vec2 probe)
+transformers
+datasets
+scikit-learn
+scipy<1.12
+matplotlib
+
+# Exercise 4 (voice cloning)
+librosa
+soundfile
+huggingface_hub
+# OpenVoice + MeloTTS are installed from GitHub, not PyPI -- see README.md
+# git clone https://github.com/myshell-ai/OpenVoice.git && cd OpenVoice && pip install -e .
+# git clone https://github.com/myshell-ai/MeloTTS.git  && cd MeloTTS  && pip install -e .

@@ -1,0 +1,1 @@
+{"classes": ["yes", "no", "stop", "go"], "n_per_class": 40, "wav2vec2_test_accuracy_pct": 85.41666865348816, "mel_spectrogram_test_accuracy_pct": 52.08333134651184, "random_baseline_pct": 25.0}
